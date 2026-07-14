@@ -1,0 +1,22 @@
+
+GET http://localhost:5122/api/values
+Accept: application/json
+
+### Get Value By ID
+GET http://localhost:5122/api/values/10
+Accept: application/json
+
+### Add Value
+POST http://localhost:5122/api/values
+Content-Type: application/json
+
+"Java"
+
+### Update Value
+PUT http://localhost:5122/api/values/5
+Content-Type: application/json
+
+"C#"
+
+### Delete Value
+DELETE http://localhost:5122/api/values/5
